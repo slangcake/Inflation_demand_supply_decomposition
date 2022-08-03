@@ -4,8 +4,6 @@
 # This code replicates Shapiro 2022 for Australia
 #---------------------------------------------
 
-# Critical user inputs at lines XX, XX and YY relate to data import and model specification choices
-
 #---------------------------------------------
 # Preamble
 
@@ -20,6 +18,9 @@ setwd(this_path)
 #---------------------------------------------
 # User inputs
 
+# Additional user inputs at lines 93 and 400 and determine data import and model thresholds
+
+# Multiple lag and window choices can be specified
 #How many lags to have in each regression
 lag <- c(3)
 
